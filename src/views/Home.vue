@@ -56,7 +56,7 @@
         </v-row>
       </v-container>
     </v-form>
-    <div class="text-center mx-auto my-5">
+    <div class="text-center mx-auto my-2">
     Staking Rewards: 0
     </div>
         <div class="text-center mx-auto my-5">
