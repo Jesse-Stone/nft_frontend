@@ -7,8 +7,16 @@
     max-width="600"
     max-height="800"
   >
-  <v-card-title class= "justify-center">Insert cool logo here</v-card-title>
+
+  
+  <v-card-title class= "justify-center"></v-card-title>
+  <v-img class = "mx-auto"
+      height="100"
+      width="100"
+      src="@/assets/ManGoose_x4.png"
+    ></v-img>
   <div class="text-center mx-auto my-12">
+    
     <v-btn class="grey lighten-3 pink--text mx-3 justify-center">DXSTAKE</v-btn>
   <v-btn class="grey lighten-3 pink--text mx-3">METRICS</v-btn>
         </div>
@@ -18,6 +26,7 @@
   
       <v-form v-model="valid">
       <v-container class ="justify-center">
+        
         <v-row>
           <v-col
             
@@ -52,8 +61,8 @@
     </div>
         <div class="text-center mx-auto my-5">
      <v-btn class="pink white--text mx-3 my-5 justify-center">REINVEST</v-btn>
-  <v-btn class="teal white--text mx-3 my-5 justify-center">REINVEST</v-btn>
-  <v-btn class="pink white--text mx-3 my-5 justify-center">REINVEST</v-btn>
+  <v-btn class="teal white--text mx-3 my-5 justify-center">UNSTAKE AND CLAIM</v-btn>
+  <v-btn class="pink white--text mx-3 my-5 justify-center">CLAIM</v-btn>
     </div>
    </v-card>
   </v-content>
